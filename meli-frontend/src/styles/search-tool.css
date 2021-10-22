@@ -1,0 +1,68 @@
+.nav-bounds-with-cart .nav-search {
+    right: 94px;
+}
+.nav-search {
+    z-index: 910;
+    will-change: left;
+    -webkit-transition: left .15s ease-out;
+    transition: left .15s ease-out;
+    
+}
+
+.nav-search {
+    left: 2%;
+    top: 0;
+    right: 45px;
+    height: 50px;
+    padding: 8px 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input[type=text].nav-search-input {
+   
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: none;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 915;
+
+    color: #333;
+    font-size: 16px;
+
+
+    width: 75%;
+    margin: 0;
+    padding: 6px 6px 6px 35px;
+    top: 6px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0%);
+    height: 35px;
+}
+
+button.nav-search-btn, button.nav-search-btn:focus {
+    
+    width: 46px;
+    border: 0 rgba(0,0,0,0.2);
+    color: #EEEEEE;
+    right: 1px;
+    left: auto;
+
+    width: 35px;
+    height: 35px;
+    border: 0 rgba(0,0,0,.2);
+    top: 8px!important;
+    right: 1px;
+}
+
+.nav-icon-search {
+    background-image: url(../assets/ic_Search.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+    top: 8px;
+    font-size: 16px;
+}

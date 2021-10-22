@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 13px;
+    background-color: #fff;
+}
+.nav-header {
+    background-color: #ffe600;
+    position: relative;
+    height: auto;
+    height: 50px;
+    border: 0 !important;
+    
+
+}
+.nav-logo {
+    background-image: url(../assets/Logo_ML.png);
+    height: 36px !important;
+    top: 7px;
+    width: 60px !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+    position: absolute;
+    display: inline-block;
+
+    order: 5;
+}
+
+.nav-search {
+    padding: 0 0 0 100px;
+    position: relative;
+    margin: 0 auto;
+    
+}
